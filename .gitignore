@@ -2,3 +2,4 @@
 .gradle
 .idea
 .gitignore
+application-oauth.properties
