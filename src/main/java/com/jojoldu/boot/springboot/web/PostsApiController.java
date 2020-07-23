@@ -1,4 +1,4 @@
-package com.jojoldu.boot.springboot.web.PostApiController;
+package com.jojoldu.boot.springboot.web;
 
 import com.jojoldu.boot.springboot.service.PostsService.PostsService;
 import com.jojoldu.boot.springboot.web.dto.PostsResponseDto.PostsResponseDto;
@@ -28,5 +28,12 @@ public class PostsApiController {
     public PostsResponseDto findById(@PathVariable Long id){
         return postsService.findById(id);
     }
+
+    @DeleteMapping("/api/v1/posts/{id}")
+    public Long delete(@PathVariable Long id){
+        postsService.delete(id);
+        return id;
+    }
+
 
 }
