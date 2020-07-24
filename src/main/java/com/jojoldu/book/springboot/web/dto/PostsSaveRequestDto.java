@@ -1,7 +1,7 @@
-package com.jojoldu.boot.springboot.web.dto.PostsSaveRequestDto;
+package com.jojoldu.book.springboot.web.dto;
 
 
-import com.jojoldu.boot.springboot.domain.posts.Posts;
+import com.jojoldu.book.springboot.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
