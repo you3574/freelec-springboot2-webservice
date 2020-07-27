@@ -1,5 +1,7 @@
 package com.jojoldu.boot.springboot.web.dto;
 
+import com.jojoldu.book.springboot.web.dto.HelloReponseDto;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloReponseDtoTest{
